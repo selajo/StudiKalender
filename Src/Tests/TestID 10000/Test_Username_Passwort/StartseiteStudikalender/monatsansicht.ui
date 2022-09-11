@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Monatsansicht</class>
+ <widget class="QDialog" name="Monatsansicht">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QCalendarWidget" name="calendarWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>200</y>
+     <width>521</width>
+     <height>351</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="termin_erstellen">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Temin hinzufügen</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="faecher">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>20</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Studifächer</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="profil">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>20</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Profil</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="lernplan">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>20</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Lernplan</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>130</y>
+     <width>131</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Das steht heute an:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="DateLabel">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>160</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Datelabel</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="ansicht">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>90</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Monatsansicht</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tagesansicht</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Wochenansicht</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="monat_vor">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>157</y>
+     <width>93</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Weiter</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="monat_zurueck">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>157</y>
+     <width>93</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Zurück</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>590</y>
+     <width>531</width>
+     <height>192</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView_2">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>180</y>
+     <width>291</width>
+     <height>341</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>100</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="wochentag">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>40</y>
+     <width>55</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

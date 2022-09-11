@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Times New Roman</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lblLogo">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>170</y>
+      <width>911</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>22</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>550</y>
+      <width>391</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MS Serif</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>LogIn </string>
+    </property>
+    <widget class="QLabel" name="lblUsername">
+     <property name="geometry">
+      <rect>
+       <x>75</x>
+       <y>40</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MV Boli</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Username:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblPasswort">
+     <property name="geometry">
+      <rect>
+       <x>79</x>
+       <y>110</y>
+       <width>71</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MV Boli</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Passwort:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lEUsername">
+     <property name="geometry">
+      <rect>
+       <x>77</x>
+       <y>66</y>
+       <width>241</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Serif</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lEPasswort">
+     <property name="geometry">
+      <rect>
+       <x>81</x>
+       <y>133</y>
+       <width>241</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Serif</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonLogIn">
+     <property name="geometry">
+      <rect>
+       <x>152</x>
+       <y>195</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MV Boli</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>Anmelden </string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushRegistrieren">
+     <property name="geometry">
+      <rect>
+       <x>152</x>
+       <y>223</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MV Boli</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>Registrieren </string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButtonPassword">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>170</y>
+       <width>241</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MV Boli</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>Passwort oder Username vergessen? </string>
+     </property>
+    </widget>
+    <zorder>lblUsername</zorder>
+    <zorder>lblPasswort</zorder>
+    <zorder>lEUsername</zorder>
+    <zorder>pushButtonLogIn</zorder>
+    <zorder>lEPasswort</zorder>
+    <zorder>pushRegistrieren</zorder>
+    <zorder>pushButtonPassword</zorder>
+   </widget>
+   <widget class="QLabel" name="text1">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>810</y>
+      <width>431</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MV Boli</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>Noch kein Mitglied des StudiKalenders? Registriere dich jetzt kostenlos!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="text2">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>850</y>
+      <width>591</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MV Boli</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Damit du den StudiKalender nutzen kannst, musst du dich im Netz der OTH Regensburg befinden!&lt;/p&gt;&lt;p&gt;Falls du dich gerade nicht in der OTH befindest, solltest du dir einen VPN zulegen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl3">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>0</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl4">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>0</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl5">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>0</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl6">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>0</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl7">
+    <property name="geometry">
+     <rect>
+      <x>1260</x>
+      <y>0</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl8">
+    <property name="geometry">
+     <rect>
+      <x>1690</x>
+      <y>0</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <zorder>groupBox</zorder>
+   <zorder>lblLogo</zorder>
+   <zorder>text1</zorder>
+   <zorder>text2</zorder>
+   <zorder>lbl3</zorder>
+   <zorder>lbl4</zorder>
+   <zorder>lbl5</zorder>
+   <zorder>lbl6</zorder>
+   <zorder>lbl7</zorder>
+   <zorder>lbl8</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
