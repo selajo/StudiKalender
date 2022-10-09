@@ -12,3 +12,9 @@ Falls es noch Fragen oder Verbesserungsvorschläge zum StudiKalender gibt, ist i
 Dort sind alle Teammitglieder, wie auch deren E-Mail-Adressen zu finden.
 
 Vielen Dank und viel Spaß mit dem StudiKalender!
+
+Entwickler-Team:
+- Krieger Irma
+- Lanzl Josef
+- Schmidmeier Elena
+- Zimmer André
